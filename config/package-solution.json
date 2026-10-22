@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "power-bi-viewer-client-side-solution",
+    "id": "74d0374d-a0b5-4528-83bd-5ff69c9e1aba",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Visionneuse de rapports Power BI Embedded (App owns data)"
+      },
+      "longDescription": {
+        "default": "WebPart SharePoint affichant des rapports Power BI Embedded. Les informations d'intégration (Embed Token) sont fournies par une API sécurisée (Azure Function), appelée avec AadHttpClient."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Visionneuse Power BI",
+        "description": "Active la WebPart Visionneuse Power BI.",
+        "id": "80d76395-f10a-44ab-9406-54337ed52e49",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/power-bi-viewer.sppkg"
+  }
+}

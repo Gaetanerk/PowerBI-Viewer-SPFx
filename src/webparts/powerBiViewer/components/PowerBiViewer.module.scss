@@ -1,0 +1,42 @@
+// La largeur reste celle de la section SharePoint : seule la hauteur est calculée (cf. PowerBiViewer.tsx).
+.viewer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.reportContainer {
+  width: 100%;
+  height: 100%;
+
+  // Iframe créée par powerbi-client : sans bordure et en bloc pour éviter un défilement parasite de quelques pixels.
+  iframe {
+    display: block;
+    border: 0;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.supportInfo {
+  margin-top: 4px;
+  font-size: 12px;
+  opacity: 0.8;
+}

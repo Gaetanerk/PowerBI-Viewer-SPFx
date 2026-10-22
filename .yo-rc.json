@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "PowerBi Viewver",
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "PowerBi Viewver",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.20.0",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "power-bi-viewver",
+    "libraryId": "74d0374d-a0b5-4528-83bd-5ff69c9e1aba",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "PowerBi Viewver description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}
